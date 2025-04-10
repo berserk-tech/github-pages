@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShadowFox Esport</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ShadowFox Esport</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#teams">Équipes</a>
+      <a href="#partners">Partenaires</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenue chez ShadowFox</h2>
+    <p>Une structure e-sport ambitieuse, compétitive et passionnée.</p>
+  </section>
+
+  <section id="about">
+    <h2>À propos de nous</h2>
+    <p>Fondée en 2022, ShadowFox est une équipe e-sport spécialisée dans les jeux compétitifs comme Valorant, League of Legends et Rocket League. Notre mission : atteindre les sommets tout en valorisant l'esprit d'équipe.</p>
+  </section>
+
+  <section id="teams">
+    <h2>Nos équipes</h2>
+    <ul>
+      <li><strong>Valorant</strong> – Team Alpha</li>
+      <li><strong>League of Legends</strong> – Team Eclipse</li>
+      <li><strong>Rocket League</strong> – Team Nitro</li>
+    </ul>
+  </section>
+
+  <section id="partners">
+    <h2>Partenaires</h2>
+    <p>Nous collaborons avec des marques engagées dans le développement de l’e-sport.</p>
+    <p><em>Envie de devenir partenaire ? Contactez-nous !</em></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : contact@shadowfox-esport.com</p>
+    <p>Instagram : @shadowfox_esport</p>
+  </section>
+
+  <footer>
+    <p>© 2025 ShadowFox Esport — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #00ffcc;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+.hero {
+  padding: 60px 20px;
+  background: linear-gradient(90deg, #0f0f0f 0%, #1f1f1f 100%);
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
